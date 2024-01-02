@@ -50,6 +50,8 @@ git config --global user.email [aleksandrtarasov53@gmail.com](mailto:aleksandrta
 
 [Шпаргалка. Базовые команды в консоли](https://practicum.yandex.ru/trainer/git-basics/lesson/fe0bcd71-f592-423b-bb81-27c37a6a115b/)
 
+## Работа с удалённым репозиторием в GitHub
+
 ```
 git init
 git status
