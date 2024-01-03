@@ -70,11 +70,6 @@ git push -u origin main
 
 [Гайд по README.md](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/)
 
-```mermaid
-graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+## Хеш
 
-%% стрелка без текста для примера: 
-  A --> B;
-```
+Хеш — основной идентификатор коммита. У каждого коммита есть свой уникальный хеш, к которому можно обратиться. Чтобы, например, откатиться к нему назад. Также есть укороченная версия хеша, котрая используется в *git log --oneline*
